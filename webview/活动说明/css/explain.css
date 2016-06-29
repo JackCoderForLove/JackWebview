@@ -1,0 +1,121 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+html, body, .wrap-page {
+  height: 100%;
+}
+
+.fixed-top {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  z-index: 960;
+}
+
+.header {
+  height: 44px;
+  border-bottom:1px solid #9f9f9f;
+}
+
+.wrap-page {
+  padding-top: 45px;
+  padding-bottom:8.75%;
+  background:#fffbee;
+  height:auto
+}
+
+
+.overlay {
+  z-index: 980;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.8);
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+.fl {
+  float: left;
+}
+
+.fr {
+  float: right;
+}
+
+input:focus {
+  outline: 0 none;
+}
+
+.header {
+  background: #f7f7f7;
+  color: #000;
+  text-align: center;
+}
+
+.header {
+  line-height: 44px;
+}
+.header .page-title {
+  font-size: 16px;
+  margin-left: 50px;
+  margin-right: 50px;
+  line-height: 44px;
+}
+
+
+.header .header-icon {
+  color: #fff;
+  width: 9.73%;
+  max-width: 44px;
+  height: 44px;
+  background: url(../images/ico_back.png) no-repeat center center;
+
+  -moz-background-size:30%;
+  -webkit-background-size:30%;
+  -o-background-size:30%;
+  background-size:30%;
+}
+
+
+
+.wrap-page{
+-webkit-overflow-scrolling: touch;
+}
+
+.wrap-page .page{
+	width: 93.6%;
+	margin: 0 auto;
+}
+.wrap-page .promo-pic{
+	width:100%;
+	height:auto;	
+	margin:8% auto 8%;
+}
+.wrap-page .promo-pic img{
+	width:100%;
+	height:auto;	
+}
+.wrap-page .promo-title{
+	text-align:center;
+	font-size:1.5rem;
+	color:#000;
+	line-height:2.0rem;	
+}
+.promo-detail{
+	font-size:1.5rem;
+	line-height:2.0rem;
+	color:#666666;
+	text-align:left;
+	margin:0 3.2%;	
+}
